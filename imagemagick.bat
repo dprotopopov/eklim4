@@ -1,5 +1,5 @@
 set IMAGEMAGICK="Y:\ImageMagick-7.0.3-Q8"
-for /R input %%f in (*.*) do call :Foo %%~nf%%~xf
+for /R input %%f in (*.*) do call :Foo %%~nxsf
 goto End
 
 :Foo
